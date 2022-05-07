@@ -1,0 +1,43 @@
+#main-section{
+    margin: 0 auto;
+    /* padding: 40px; */
+}
+#ul-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.image{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 5 px;
+}
+
+.button{
+   height: 35px;
+   width:150px ;
+   margin-top: 30px;
+   background-color:rgb(215, 228, 44);
+   color: rgb(223, 20, 20);
+   border-radius: 20px;
+   cursor: pointer;
+   font-size:14px ;
+   font-weight: bold;
+}
+//changing slowly
+button:hover{
+        transition: 0.3s;
+        opacity: 80%;
+}
+.liInfo{
+    background-color: rgb(151, 129, 99);
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.liInfo:hover{
+    opacity: 40%;
+    transition: 2s;
+}
